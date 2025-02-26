@@ -7,12 +7,31 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Welcome to Instagram Clone</h1>
-    <button onclick="logout()">Logout</button>
-    <a href="upload.html">Upload</a>
-    <a href="profile.html">Profile</a>
-    <a href="explore.html">Explore</a>
-    <a href="notifications.html">Notifications</a>
+    <div class="container">
+        <h1>📸 Instagram Clone</h1>
+        <div class="menu">
+            <a href="upload.html">Upload</a>
+            <a href="profile.html">Profile</a>
+            <a href="explore.html">Explore</a>
+            <a href="notifications.html">Notifications</a>
+        </div>
+        <hr class="line">
+        <div class="posts">
+            <h2>📢 Recent Posts</h2>
+            <div class="post-box">
+                <p>Sample Post Title</p>
+                <img src="https://via.placeholder.com/150" alt="Post Image">
+                <p class="description">This is a sample post description.</p>
+            </div>
+            <div class="post-box">
+                <p>Another Post</p>
+                <img src="https://via.placeholder.com/150" alt="Post Image">
+                <p class="description">Another post description goes here.</p>
+            </div>
+        </div>
+        <hr class="line">
+        <button onclick="logout()">Logout</button>
+    </div>
     <script src="js/auth.js"></script>
 </body>
 </html>
